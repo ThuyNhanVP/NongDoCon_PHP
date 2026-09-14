@@ -1,0 +1,11 @@
+CREATE TABLE thongtin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    gioi_tinh VARCHAR(10) NOT NULL,
+    can_nang FLOAT NOT NULL,
+    phuong_tien VARCHAR(20) NOT NULL,
+    nong_do_con FLOAT NOT NULL,
+    tg_het_con FLOAT NOT NULL,
+    muc_phat VARCHAR(50),
+    glplx VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
