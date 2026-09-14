@@ -2,7 +2,7 @@
 // Database connection details
 $servername = "localhost";
 $username = "root";
-$password = "970405Nh@n";
+$password = "";
 $dbname = "db_nongdo";
 
 // Create connection
